@@ -1,0 +1,44 @@
+{
+  "workbench.settings.editor": "json",
+  "workbench.settings.useSplitJSON": true,
+  "editor.fontSize": 17,
+  "git.openRepositoryInParentFolders": "never",
+  "editor.wordWrap": "on",
+  "editor.detectIndentation": false,
+  "editor.tabSize": 2,
+  "breadcrumbs.symbolPath": "off",
+  "window.menuBarVisibility": "compact",
+  "workbench.editor.empty.hint": "hidden",
+  // 控制字体系列。
+  "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.hover.delay": 3000,
+  "powermode.enabled": true,
+  "powermode.shake.enabled": false,
+  "powermode.combo.location": "off",
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // 禁用和隐藏 GitHub Copilot 提供的内置 AI 功能，包括聊天、代码补全和下一个编辑建议。
+  "chat.disableAIFeatures": false,
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "workbench.colorTheme": "Default Light Modern",
+  //   Node.js File Paths
+  // Every file in the system has a path. On Linux and macOS, a path might look like: /users/joe/file.txt while Windows computers are different, and have a structure such as: C:\users\joe\file.txt
+  // 复制相对文件路径时使用的路径分隔字符。
+  "explorer.copyRelativePathSeparator": "/",
+  "explorer.copyPathSeparator": "\\",
+  "gitlens.ai.model": "vscode",
+  "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+}
