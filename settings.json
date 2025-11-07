@@ -39,6 +39,18 @@
   // 复制相对文件路径时使用的路径分隔字符。
   "explorer.copyRelativePathSeparator": "/",
   "explorer.copyPathSeparator": "\\",
+  // 执行单词相关的导航或操作时作为单词分隔符的字符。
+  "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?",
+
   "gitlens.ai.model": "vscode",
   "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
 }
