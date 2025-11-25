@@ -35,7 +35,7 @@
     "markdown": false,
     "scminput": false
   },
-  "workbench.colorTheme": "Default Light Modern",
+  "workbench.colorTheme": "GitHub Light",
   //   Node.js File Paths
   // Every file in the system has a path. On Linux and macOS, a path might look like: /users/joe/file.txt while Windows computers are different, and have a structure such as: C:\users\joe\file.txt
   // 复制相对文件路径时使用的路径分隔字符。
