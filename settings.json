@@ -47,7 +47,7 @@
   "gitlens.ai.model": "vscode",
   "gitlens.ai.vscode.model": "copilot:gpt-4.1",
   "[typescript]": {
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[scss]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -85,6 +85,7 @@
     "**/.vscode/**": true,
     "**/.vite/**": true,
     // "**/temp/**": true,
+    "/stats.html": true,
     "**/public/**": true,
     "**/package-lock.json": true
   },

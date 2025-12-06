@@ -15,6 +15,20 @@
 	// 	],
 	// 	"description": "Log output to console"
 	// }
+  /* "sniXXX":{
+    "prefix":"sniXXX",
+    "body":[
+      "",
+    ],
+    "description": "code-snippet",
+  }, */
+  "sniTodo":{
+    "prefix":"sniTodo",
+    "body":[
+      "/** ♡TODO♡ */",
+    ],
+    "description": "code-snippet",
+  },
   "sniVue":{
     "prefix": "sniVue",
     "body": [
@@ -53,5 +67,6 @@
       "",
     ],
     "description": "Xxx.vue"
-  }
+  },
+  
 }
