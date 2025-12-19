@@ -87,8 +87,8 @@
     "/stats.html": true,
     "/bun.lock": true,
     "**/public/**": true,
-    "/package-lock*.json": true,
-    "**/package-lock.json": true
+    // "/package-lock*.json": true,
+    // "**/package-lock.json": true
   },
 
   "javascript.updateImportsOnFileMove.enabled": "never",
