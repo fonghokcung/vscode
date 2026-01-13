@@ -81,4 +81,5 @@
   "javascript.updateImportsOnFileMove.enabled": "never",
   "typescript.updateImportsOnFileMove.enabled": "never",
   "workbench.colorTheme": "GitHub Dark Default",
+  "workbench.startupEditor": "none",
 }
