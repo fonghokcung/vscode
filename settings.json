@@ -68,6 +68,10 @@
     "**/.git": true,
     "**/.svn": true,
     // "**/.DS_Store": true,
+    "**/nginx-1**": true,
+    "**/F8": true,
+    "**/.vite": true,
+    "**/bun.lock": true,
   },
   // 搜索排除规则
   "search.exclude": {
