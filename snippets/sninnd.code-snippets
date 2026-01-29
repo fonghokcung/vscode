@@ -1,0 +1,72 @@
+{
+	// Place your 全局 snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"scope": "javascript,typescript",
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+  /* "sniXXX":{
+    "prefix":"sniXXX",
+    "body":[
+      "",
+    ],
+    "description": "code-snippet",
+  }, */
+  "sniTodo":{
+    "prefix":"sniTodo",
+    "body":[
+      "/** ♡TODO♡ */",
+    ],
+    "description": "code-snippet",
+  },
+  "sniVue":{
+    "prefix": "sniVue",
+    "body": [
+      "<script setup>",
+      "import { cloneDeep } from \"lodash\";",
+      "import { onMounted } from \"vue\";",
+      "",
+      "defineOptions({",
+      "  name: \"XXX\",",
+      "});",
+      "// 挂载",
+      "onMounted(() => {",
+      "  console.log(\"Xxx_vue属性\", cloneDeep(theProps));",
+      "});",
+      "// 属性",
+      "const theProps = defineProps({",
+      "  foo: {",
+      "    type: String,",
+      "    default: \"\",",
+      "  },",
+      "});",
+      "</script>",
+      "",
+      "<template>",
+      "  <div class=\"Xxx_vue\">",
+      "    <h6>this is Xxx_vue..</h6>",
+      "  </div>",
+      "</template>",
+      "",
+      "<style lang=\"scss\" scoped>",
+      ".Xxx_vue {",
+      "  border: 4px solid var(--nnd-primary-color);",
+      "  background: #f9b70744;",
+      "}",
+      "</style>",
+      "",
+    ],
+    "description": "Xxx.vue"
+  },
+  
+}
